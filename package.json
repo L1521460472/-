@@ -24,7 +24,7 @@
     "vue-video-player": "^5.0.2",
     "vuedraggable": "^2.24.3",
     "vuex": "^3.5.1",
-    "xlsx": "^0.16.9"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

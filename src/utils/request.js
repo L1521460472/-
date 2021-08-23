@@ -26,6 +26,7 @@ service.interceptors.response.use(config => {
     //   message: config.data.message,
     //   center: true
     // })
+    removeCookie("enterpriseToken")
     router.replace('/')
     return config
     // parent.location.href = '/'

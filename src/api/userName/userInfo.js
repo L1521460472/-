@@ -28,3 +28,14 @@ export const uploadFile = (params) => {
     data: params
   })
 }
+
+// 操作日志
+
+export const  getOperateionList= (params) => {
+  return request({
+    url: '/enterprise-business-service/operateHistory/pageList',
+    method: 'post',
+    data: params
+  })
+}
+

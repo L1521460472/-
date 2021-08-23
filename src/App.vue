@@ -6,11 +6,11 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
 }
 </script>
 
-<style>
+<style lang="less">
 #app {
   font-family: Microsoft YaHei;
   -webkit-font-smoothing: antialiased;
@@ -39,7 +39,10 @@ display: table-cell!important;
 /* 设置el-tooltip宽度 */
 .el-tooltip__popper{
   max-width: 300px!important;
+  max-height: 90% !important;
+  overflow: auto;
 }
+
 /* 去掉el-tooltip聚焦边框 */
 .el-tooltip:focus{
   outline: 0 !important;
@@ -108,7 +111,7 @@ input{
 }
 /* 有子节点 且未展开 */
 .el-tree .el-icon-caret-right:before {
-  background: url("./assets/images/fold_icon.svg") no-repeat 0 0;
+  background: url("./assets/svg/fold_icon.svg") no-repeat 0 0;
   content: "";
   display: block;
   width: 14px;
@@ -118,7 +121,7 @@ input{
 }
 /* 有子节点 且已展开 */
 .el-tree .el-tree-node__expand-icon.expanded.el-icon-caret-right:before {
-  background: url("./assets/images/unfold_icon.svg") no-repeat 0 0;
+  background: url("./assets/svg/unfold_icon.svg") no-repeat 0 0;
   content: "";
   display: block;
   width: 14px;
@@ -127,12 +130,17 @@ input{
   background-size: 14px;
 }
 .el-tree .el-tree-node__expand-icon.is-leaf::before {
-  background: url("./assets/images/file_icon.svg") no-repeat 0 0;
+  background: url("./assets/svg/file_icon.svg") no-repeat 0 0;
   content: "";
   display: block;
   width: 14px;
   height: 14px;
   font-size: 14px;
   background-size: 14px;
+}
+/* el-tab  切换时蓝色边框问题 */
+.el-tabs__item:focus.is-active.is-focus:not(:active) {
+         -webkit-box-shadow: none;
+          box-shadow: none;
 }
 </style>

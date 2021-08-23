@@ -5,7 +5,7 @@
 const path = require('path')
 
 // const  serverIp ='http://172.18.11.154:7200/',
-const serverIp ='http://172.18.11.132:7200/'
+const serverIp ='http://172.18.11.152:7200/'
 // const serverIp ='http://172.18.11.155:7200/'
 
 module.exports = {
@@ -16,8 +16,8 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/enterprise-business-service': {
+        // target: 'http://172.18.11.155:7200/',
         target: serverIp,
-        // target: 'http://172.18.11.154:7200/',
         // target: 'http://172.18.11.107:7200/',
 
         ws: true,
@@ -27,14 +27,15 @@ module.exports = {
         changeOrigin: true,
         secure: false
       },
-      '/enterprise-base-service': {
+      '/enterprise-operation-service': {
         target: serverIp,
         // target: 'http://172.18.11.154:7200/',
+
         // target: 'http://172.18.11.107:7200/',
 
         ws: true,
         pathRewrite: {
-          '^/enterprise-base-service': '/enterprise-base-service'
+          '^/enterprise-operation-service': '/enterprise-operation-service'
         },
         changeOrigin: true,
         secure: false
@@ -78,7 +79,7 @@ module.exports = {
      * Source Maps
      */
 
-    productionSourceMap: false,//打包后看不到源文件
+    productionSourceMap: false,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
 

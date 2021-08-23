@@ -36,6 +36,12 @@ function regexpName(value) {
   return reg.test(value)
 }
 
+// 验证手机号码
+function regexpPhone(value) {
+  let reg = /^1[3456789]\d{9}$/
+  return reg.test(value)
+}
+
 // 菜单名称，关键词
 function regexpMenu(value) {
   let reg = /^[A-Za-z0-9\u4e00-\u9fa5]+$/gi
@@ -104,6 +110,7 @@ module.exports = {
   regexpAccount,
   regexpPassword,
   regexpName,
+  regexpPhone,
   regexpMenu,
   regexpUrl,
   getBLen,

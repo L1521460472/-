@@ -1,0 +1,184 @@
+{
+  "id": "2131577",
+  "name": "5G平台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21891132",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "21891127",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "4384156",
+      "name": "代报备",
+      "font_class": "daibaobei",
+      "unicode": "e774",
+      "unicode_decimal": 59252
+    },
+    {
+      "icon_id": "10502298",
+      "name": "上架",
+      "font_class": "renwu",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "19064916",
+      "name": "注销",
+      "font_class": "zhuxiao",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "12232842",
+      "name": "导出",
+      "font_class": "daochu1",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "14079999",
+      "name": "语音",
+      "font_class": "yuyin",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "17949457",
+      "name": "键盘",
+      "font_class": "jianpan1",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "10867016",
+      "name": "配置",
+      "font_class": "peizhi",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "18892863",
+      "name": "通迅录",
+      "font_class": "tongxunlu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "18892864",
+      "name": "导入",
+      "font_class": "daoru",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "12331658",
+      "name": "导出",
+      "font_class": "daochu",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "6067472",
+      "name": "调节",
+      "font_class": "tiaojie",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "7338229",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "11242500",
+      "name": "新增",
+      "font_class": "xinzeng",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "13174867",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "10361857",
+      "name": "复制",
+      "font_class": "fuzhi",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "11512965",
+      "name": "还原",
+      "font_class": "huanyuan1",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "2615298",
+      "name": "转为启用",
+      "font_class": "zhuanweiqiyong",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "10446601",
+      "name": "解锁",
+      "font_class": "zu",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "4469398",
+      "name": "停用",
+      "font_class": "tingyong",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "9531613",
+      "name": "删 除",
+      "font_class": "shanchu",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "12807148",
+      "name": "变更内容",
+      "font_class": "biangengneirong",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "15810475",
+      "name": "修改",
+      "font_class": "xiugai",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "13481110",
+      "name": "充值",
+      "font_class": "3",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

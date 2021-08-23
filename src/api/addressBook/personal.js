@@ -113,12 +113,17 @@ export const importFile = (formData, params) => {
     url: '/enterprise-business-service/enterpriseAddressBookPersonField/import',
     method: 'post',
     data: formData,
-    onUploadProgress: event => {
-      params.file.percent = event.loaded / event.total * 100
-      params.onProgress(params.file)
+    onUploadProgress: ProgressEvent => {
+      // console.log('progressEvent', ProgressEvent, params)
+      // params.file.percent = ProgressEvent.loaded / ProgressEvent.total * 100
+      // params.onProgress(params.file)
+      const complete = (ProgressEvent.loaded / ProgressEvent.total * 100 | 0)
+      params.onProgress({percent: complete})
     }
   }).then(res => {
     params.onSuccess(res)
+  }).catch(error => {
+    params.onError(error)
   })
 }
 

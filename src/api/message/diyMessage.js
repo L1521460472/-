@@ -48,16 +48,16 @@ export const getBusinessLis = (params)=>{
 //产品类型
 export const businessTypeList = (params) => {
     return request({
-      url: '/enterprise-base-service/dictionaryType/listDictByTypeCodeList',
+      url: '/enterprise-operation-service/dictionaryType/listDictByTypeCodeList',
       method: 'post',
       data: params
     })
 }
 
-//企业应用list
+//根据业务类型获取应用列表
 export const enterpriseApplist = (params)=>{
     return request({
-        url:'/enterprise-business-service/enterpriseAccountApp/list',
+        url:'/enterprise-business-service/enterpriseAccountApp/listByBusinessType',
         method:'get',
         params:params
     })

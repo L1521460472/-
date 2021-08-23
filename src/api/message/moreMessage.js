@@ -28,3 +28,38 @@ export const addressImport = (params) => {
     data: params
   })
 }
+
+
+/**
+ * 导入通讯录接口
+ */
+
+// 通讯录--左侧个人通讯录树状列表
+export const leftMenu = (params) => {
+  return request({
+    url: '/enterprise-business-service/message/addressBook/treeList',
+    method: 'post',
+    data: params
+  })
+}
+
+// 通讯录--获取顶部企业设置的字段
+export const getHeadList = (params) => {
+  return request({
+    url: '/enterprise-business-service/message/addressBook/queryColumnList',
+    method: 'get',
+    data: params
+  })
+}
+
+// 通讯录--分页获取联系人自定义列表
+export const getTableList = (params) => {
+  return request({
+    url: '/enterprise-business-service/message/addressBook/pageList',
+    method: 'post',
+    data: params
+  })
+}
+
+// 通讯录--导入联系人
+

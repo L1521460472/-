@@ -1,0 +1,307 @@
+#header{
+    width: 100%;
+    height: calc(100% - 60px);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-size: 14px;
+    .header{
+        width: 100%;
+      height: 100%;
+      .title {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        background: #fff;
+        .titleLeft {
+          margin-left: 30px;
+          margin-right: 200px;
+          .el-button--text {
+            color: #333;
+          }
+        }
+        .titleCenter {
+          width: 390px;
+          height: 100%;
+          ul {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            li {
+              list-style: none;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              box-sizing: border-box;
+              float: left;
+              font-size: 14px;
+              margin: 0 30px;
+              cursor: pointer;
+              color: #999999;
+              border-bottom: 2px solid #fff;
+            }
+            li:hover {
+              border-bottom: 2px solid #368cfe;
+              color: #368cfe;
+            }
+          }
+          .active {
+            border-bottom: 2px solid #368cfe;
+            color: #368cfe;
+          }
+        }
+        .titleRight {
+          margin-right: 16px;
+          .buttonRight {
+            background: #fff;
+            color: #368cfe;
+          }
+          .buttonRight:hover {
+            color: #368cfe;
+          }
+        }
+      }
+      .banner {
+        width: 100%;
+        min-height: calc(100% - 60px);
+        display: flex;
+        background-color: #e7e8f1;
+        .navTitle {
+          width: 100%;
+          height: 80px;
+          line-height: 80px;
+          font-size: 18px;
+          padding-left: 20px;
+          box-sizing: border-box;
+        }
+        .bannerLeft {
+          width: 250px;
+          min-height: 100%;
+          background: #fff;
+          box-shadow: 0px 16px 16px -16px rgba(0, 0, 0, 0.1) inset;
+          .nav {
+            width: 100%;
+            height: 100%;
+            .navFoo {
+              width: 100%;
+              height: calc(100% - 80px);
+              box-sizing: border-box;
+              padding: 0 36px;
+              display: flex;
+              justify-content: space-between;
+              align-content: flex-start;
+              flex-wrap: wrap;
+            }
+          }
+        }
+        dl {
+            margin: 0;
+            width: 80px;
+            height: 80px;
+            padding-top: 12px;
+            flex-shrink: 1;
+            box-sizing: border-box;
+            margin-top: 5px;
+            dd {
+              margin: 0;
+              text-align: center;
+            }
+            dt {
+              font-size: 12px;
+              color: rgb(254, 150, 54);
+              text-align: center;
+              margin-top: 5px;
+            }
+          }
+          dl:hover {
+            background: #f8f8fb;
+            cursor: pointer;
+          }
+        .prod {
+          width: 375px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          background: #fff;
+          color: #999;
+          position: absolute;
+          font-size: 12px;
+          top: 340px;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+        
+        .bannerCenter {
+          width: calc(100% - 550px);
+          min-height: 100%;
+          background: #e7e8f1;
+          box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1) inset;
+          .bannerCenterBoxT {
+            width: 375px;
+            height: 210px;
+            text-align: center;
+            background: #fff;
+            border: 1px solid #fff;
+            position: absolute;
+            top: 120px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            .centerIcon {
+              margin-bottom: 10px;
+            }
+            .centerText {
+              font-size: 12px;
+              color: #999;
+            }
+            .descBox{
+                width: 100%;
+                height: 100%;
+                .textBox{
+                    width: 100%;
+                    height: 100%;
+                    box-sizing: border-box;
+                    padding: 30px 26px;
+                    overflow: hidden;
+                    text-align: left;
+                    display:-webkit-box;
+                    word-break:break-all;
+                    -webkit-box-orient:vertical;
+                    -webkit-line-clamp:8;
+                }
+            }
+          }
+          .bannerCenterBoxR {
+            position: absolute;
+            top: 120px;
+            left: calc(50% + 200px);
+            span {
+              margin-left: 6px;
+              font-size: 12px;
+              color: #666;
+              cursor: pointer;
+            }
+            .cardBox{
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .moduleactive{
+              color: #368cfe;
+            }
+            .moduleCardactive{
+                color: #368cfe;
+            }
+          }
+          .moduleactive{
+            color: #368cfe;
+          }
+          .boxactive {
+            border: 1px solid #368cfe;
+          }
+        }
+        
+        .bannerRight {
+          width: 300px;
+          min-height: 100%;
+          background: #fff;
+          box-shadow: 0px 16px 16px -16px rgba(0, 0, 0, 0.1) inset;
+          .bannerRightMsg {
+            width: 100%;
+            height: calc(100% - 80px);
+            padding: 0 20px;
+            box-sizing: border-box;
+            .navName {
+                height: 32px;
+              //   color: #fe3636;
+                color: #666666;
+              }
+              .navBlock {
+                height: 32px;
+                color: #666;
+                span{
+                    font-size: 12px;
+                    color: #999;
+                }
+              }
+              .navInput {
+                margin-bottom: 25px;
+                .el-select {
+                  width: 100%;
+                }
+                .el-switch {
+                  width: 100%;
+                  justify-content: space-between;
+                }
+                /deep/ .el-switch__label * {
+                  font-size: 12px;
+                }
+                /deep/ .el-switch__label {
+                  color: #333 !important;
+                }
+                /deep/ .el-switch__core {
+                  float: right;
+                }
+                span {
+                  display: block;
+                  font-size: 12px;
+                  color: #999999;
+                  margin-top: 6px;
+                }
+              }
+            .msgNo {
+              font-size: 12px;
+              color: #999999;
+            }
+            .msgYes {
+              color: #666666;
+              display: inline-block;
+              margin-bottom: 14px;
+            }
+            .msgYesR {
+              float: right;
+              font-size: 14px;
+              color: #fe9636;
+              cursor: pointer;
+            }
+            .msgMain {
+              width: 100%;
+              height: calc(100% - 53px);
+              .wrapper {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                span {
+                  width: 100%;
+                }
+              }
+            }
+            .el-textarea {
+                width: 260px;
+                height: 100%;
+                font-size: 12px;
+                /deep/ .el-textarea__inner {
+                  min-height: 580px !important;
+                  height: 100% !important;
+                  
+                }
+              }
+          }
+        }
+      }
+    }
+}
